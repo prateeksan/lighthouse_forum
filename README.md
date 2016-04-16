@@ -1,28 +1,16 @@
-== README
+# Lighthouse Forum
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An experimental project to test CRUD functionality on rails by building a simple forum.
 
-Things you may want to cover:
+## Test it out:
 
-* Ruby version
+` $ git clone https://github.com/prateeksan/blog.git`
 
-* System dependencies
+` $ bundle install `
 
-* Configuration
+` $ bundle exec rake db:migrate `
 
-* Database creation
+` $ rails s `
 
-* Database initialization
+Open up `localhost:3000` on your browser and you're all set!
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
